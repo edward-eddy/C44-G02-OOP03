@@ -107,7 +107,23 @@ namespace Demo
             //}
             #endregion
 
+            #region Interface Ex03
+            //Car car = new Car();
 
+            //car.Speed = 120;
+            //car.Forward();
+
+            //Airplane airplane = new Airplane();
+
+            //IMoveable moveable = airplane;
+            //IFlyable flyable = airplane;
+
+            //moveable.Forward();
+            //moveable.Backward();
+
+            //flyable.Forward();
+            //flyable.Backward(); 
+            #endregion
 
 
 
