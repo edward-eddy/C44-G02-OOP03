@@ -273,30 +273,23 @@ namespace Demo
             //} 
             #endregion
 
+            #region IComparer
+            //Employee[] employees = new Employee[3]
+            //{
+            //    new Employee(){Id = 1, Name = "Edward", Age= 30, Salary = 12000},
+            //    new Employee(){Id = 2, Name = "Ahmed",  Age= 27, Salary = 11000},
+            //    new Employee(){Id = 3, Name = "Omar",   Age= 28, Salary = 13000}
+            //};
 
 
+            //Array.Sort(employees, new EmployeeComparerSalary());
+            //Array.Sort(employees, new EmployeeComparerNameLength());
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            //foreach (Employee employee in employees)
+            //{
+            //    Console.WriteLine(employee);
+            //}
+            #endregion
 
         }
     }

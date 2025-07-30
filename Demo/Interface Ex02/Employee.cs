@@ -1,5 +1,33 @@
-﻿namespace Demo.Interface_Ex02
+﻿using System.Collections;
+
+namespace Demo.Interface_Ex02
 {
+    class EmployeeComparerNameLength : IComparer
+    {
+        public int Compare(object? x, object? y)
+        {
+            Employee X = (Employee)x;
+            Employee Y = (Employee)y;
+
+            if (X.Name.Length > Y.Name.Length) return 1;
+            if (X.Name.Length < Y.Name.Length) return -1;
+            return 0;
+        }
+    }
+
+    class EmployeeComparerSalary : IComparer
+    {
+        public int Compare(object? x, object? y)
+        {
+            Employee X = (Employee)x;
+            Employee Y = (Employee)y;
+
+            if (X.Salary > Y.Salary) return 1;
+            if (X.Salary < Y.Salary) return -1;
+            return 0;
+        }
+    }
+
     internal class Employee : ICloneable, IComparable
     {
         public int Id { get; set; }
