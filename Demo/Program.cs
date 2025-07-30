@@ -236,6 +236,20 @@ namespace Demo
             //Console.WriteLine(Arr01[0]); // Different 
             #endregion
 
+            #region ICloneable
+            //Employee E01 = new Employee() { Id = 1, Name = "Edward", Age = 28, Salary = 12000 };
+            //Employee E02 = new Employee() { Id = 2, Name = "Ahmed", Age = 28, Salary = 11000 };
+
+            //E02 = E01; // Shallow Copy
+            //E02 = (Employee)E01.Clone(); // Deep Copy
+            //E02 = new Employee(E01); // Deep Copy With Copy Constructor
+
+            //Console.WriteLine(E01.GetHashCode());
+            //Console.WriteLine(E02.GetHashCode());
+            //Console.WriteLine(E01);
+            //Console.WriteLine(E02); 
+            #endregion
+
         }
     }
 }
