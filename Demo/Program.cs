@@ -250,6 +250,54 @@ namespace Demo
             //Console.WriteLine(E02); 
             #endregion
 
+            #region ICompareable
+            //Employee[] employees = new Employee[3]
+            //{
+            //    new Employee(){Id = 1, Name = "Edward", Age= 30, Salary = 12000},
+            //    new Employee(){Id = 2, Name = "Ahmed",  Age= 27, Salary = 11000},
+            //    new Employee(){Id = 3, Name = "Omar",   Age= 28, Salary = 13000}
+            //};
+
+            //Array.Sort(employees);
+
+            //int X = employees[0].CompareTo(employees[1]);
+            // +ve  : Caller Greater Than Parameter
+            // -ve  : Caller Less Than Parameter
+            // 0    : Caller Equal Parameter
+
+            //Console.WriteLine(X);
+
+            //foreach (Employee employee in employees)
+            //{
+            //    Console.WriteLine(employee);
+            //} 
+            #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }

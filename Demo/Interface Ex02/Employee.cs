@@ -27,9 +27,12 @@
         public int CompareTo(object? obj)
         {
             Employee employee = (Employee)obj;
-            if (employee.Salary < this.Salary) return -1;
-            if (employee.Salary > this.Salary) return 1;
-            return 0;
+
+            //if (employee.Age < this.Age) return 1;
+            //if (employee.Age > this.Age) return -1;
+            //return 0;
+
+            return this.Age.CompareTo(employee.Age);
 
         }
 
